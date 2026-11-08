@@ -1,0 +1,22 @@
+{
+  "name": "aristo-vy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Aristo – motion graphics phần Vỹ (B, B1–B9, C1–C2) dựng bằng Remotion",
+  "scripts": {
+    "dev": "remotion studio",
+    "render:all": "remotion render PhanVy out/phan-vy-animatic.mp4",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "@remotion/google-fonts": "4.0.541",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.541"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
